@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+/* font-family: "Roboto", sans-serif; */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: rgb(42, 6, 6);
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.container-box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgb(201, 163, 117);
+  min-height: 600px;
+  border-radius: 30px;
+  padding: 180px 520px 180px 160px;
+  color: rgb(42, 6, 6);
+}
+
+.title {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.profession {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.diversion {
+  margin-bottom: 450px;
+}
+
+.diversion a {
+  font-size: 35px;
+  font-weight: 500;
+  color: red;
+}
+
+.text {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.block-btn {
+  padding: 20px 50px;
+  background-color: bisque;
+  border-radius: 30px;
+  border: 3px solid rgb(42, 6, 6);
+}
+
+.block-btn a {
+  font-size: 20px;
+  color: black;
+}
+
+/* ------minimal------ */
+.minimal-nav {
+  padding: 20px;
+  display: flex;
+  justify-content: end;
+}
+
+.second-line {
+  background-color: beige;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.top-vector-hire {
+  margin-left: 30px;
+}
+
+.top-vector-portfolio {
+  margin-left: 230px;
+}
+
+.top-vector-text {
+  margin-left: 10px;
+}
+
+.container-min {
+  background-color: beige;
+  min-height: 500px;
+}
+
+.main-section {
+  max-width: 1250px;
+  background-color: beige;
+  min-height: 500px;
+  margin-left: auto;
+  border-left: 2px solid black;
+}
+
+.design-row .left {
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.design-row .right .text {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.design-btn {
+  padding: 10px 40px;
+  background-color: black;
+  color: azure;
+  font-size: 20px;
+}
+
+.design-row {
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.whatIdo,
+.arrow {
+  margin-left: 40px;
+}
+
+.whatIdo {
+  display: inline-block;
+  background-color: red;
+}
+
+.service-row {
+  margin-left: -50px;
+  margin-bottom: 140px;
+}
+
+.featured-block {
+  background-color:cyan;
+  min-height: 300px;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+.featured-left-title {
+  
+  display: inline-block;
+  background-color: red;
+}
+
+.featured-card {
+  padding: 10px;
+  background-color: blue;
+  color: gold;
+  border: 2px solid gold;
+  border-radius: 20px;
+}
+
+.featured-card-img {
+  display: flex;
+  justify-content: center;
+}
+
+.featured-left-arrow img {
+  margin-left: 200px;
+}
+
+.top-row {
+  align-items: center;
+}
+
+.featured-card-last-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.expierence-block {
+  background-color: bisque;
+  padding: 20px;
+  min-height: 300px;
+  
+}
+
+.exp-block-right {
+  border: 1px solid black;
+}
+
+.exp-block-left {
+  padding: 50px 20px;
+}
+
+.expierence-row {
+  margin-bottom: 100px;
+}
+
+.contact-row {
+  align-items: center;
+}
+
+.name-img {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.contact-block {
+  padding: 80px 20px;
+}
+
+.under-line {
+  height: 1px;
+  max-width: 700px;
+  background-color: black;
+  
+}
+
+.zainab-cont {
+  margin-left: 20px;
+}
+
+.name-name {
+  background-color: red;
+}
+
+.email-email {
+  background-color: yellow;
+}
+
+.about-about {
+  background-color: deepskyblue;
+}
+
+.contact-btn {
+  padding: 10px 40px;
+  background-color: black;
+  color: azure;
+  font-size: 20px; 
+}
+.throw-line-block {
+  min-height: 100px;
+
+}
+
+.throw-line {
+  height: 2px;
+  width: 100%;
+  background-color: black; 
+}
+
+.minimal-footer {
+  padding: 10px;
+  align-items: center;
+}
+
+.footer-social img {
+  margin-left: 60px;
+  background-color: black;
+}
+
+.last-line-block {
+  padding: 10px;
+}
+
+.last-line-block-text {
+  margin-left: 850px;
+}
+
+
+
+@media (max-width: 768px) {
+  .service-row img {
+    transform: rotate(90deg);
+    
+  }
+
+  .arrow img {
+    margin-bottom: 120px;
+  }
+}
